@@ -1,0 +1,23 @@
+{
+  "name": "screenxfacextime",
+  "version": "0.0.1",
+  "description": "site of time plotted screenshots",
+  "main": "index.html",
+  "authors": [
+    "unsalted"
+  ],
+  "license": "MIT",
+  "homepage": "http://unsalted.nu",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "isotope": "~2.0.1",
+    "jquery": "components/jquery#~2.1.1",
+    "jquery-unveil": "https://github.com/luis-almeida/unveil.git#~1.3.0"
+  }
+}

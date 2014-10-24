@@ -1,0 +1,140 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'source-code-pro';
+}
+p {
+  font-weight: normal;
+  margin: 0;
+  font-size: 18px;
+  padding: 0 3px 0 4px;
+  background-color: red;
+  color: #fff;
+  z-index: 100;
+  font-weight: 400;
+  position: absolute;
+}
+header {
+  position: absolute;
+  width: 100%;
+  height: 100px;
+  padding: 50px 0 50px 0;
+  margin: 0;
+  text-align: center;
+  background-color: #fff;
+  z-index: 200;
+}
+header p {
+  width: 500px;
+  margin-left: -250px;
+  left: 50%;
+  text-align: center;
+  background-color: transparent;
+  color: red;
+  font-weight: 500;
+  font-size: 14px;
+}
+h1 {
+  color: blue;
+  font-size: 40px;
+  font-weight: 300;
+  margin: 0;
+}
+h1 span {
+  color: red;
+}
+#container {
+  margin: 0 auto;
+  padding: 200px 0 0 0;
+  width: 100%;
+}
+.blank {
+  width: 72px;
+  height: 41px;
+  float: left;
+}
+img {
+  width: 72px;
+  height: 41px;
+  margin: 0;
+  border: 0;
+  float: left;
+}
+.day {
+  margin: 0;
+  padding: 0;
+  height: 1968px;
+  width: 100%;
+  border-top: 6px solid red;
+  display: block;
+}
+.desk {
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  width: 100%;
+}
+.desk .hour {
+  border-bottom: 3px solid blue;
+  padding-bottom: 38px;
+}
+.desk li:first-child {
+  padding-bottom: 41px;
+}
+.desk li:last-child {
+  padding-bottom: 0;
+  border-bottom: 0;
+}
+.face {
+  margin: 0;
+  padding: 41px 0 0 0;
+  position: absolute;
+  width: 100%;
+}
+.face li:last-child {
+  padding-bottom: 0;
+  border-bottom: 0;
+}
+.hour {
+  padding-bottom: 41px;
+  width: 1016px;
+  margin: 0 auto;
+  height: 41px;
+  display: block;
+}
+.hour p {
+  background-color: blue;
+}
+.minute {
+  width: 72px;
+  height: 41px;
+  position: absolute;
+  background-color: #fff;
+}
+.minute.active {
+  z-index: 100!important;
+}
+#clock {
+  position: fixed;
+  left: 50%;
+  margin-left: -508px;
+  width: 1016px;
+  z-index: 150;
+}
+#clock ul {
+  margin: 0;
+  padding: 0;
+}
+#clock li {
+  float: right;
+  margin: 0;
+  padding: 0;
+  width: 169px;
+  height: 20px;
+  display: inline-block;
+  list-style: none;
+}
+#clock li p {
+  float: right;
+  background-color: black;
+}

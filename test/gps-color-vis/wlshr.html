@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Color Map Miracle Mile</title>
+    <script type="text/javascript" src="./scripts/vendor/polymaps/polymaps.min.js"></script>
+    <script type="text/javascript" src="./scripts/vendor/protovis/protodata.min.js"></script>
+    <style type="text/css">
+
+@import url("./css/example.css");
+
+body {
+  background: #021019;
+}
+
+.compass .back {
+  fill: #256574;
+}
+
+.compass .fore, .compass .chevron {
+  stroke: #1AA398;
+}
+
+#streets path {
+  fill: none;
+  stroke-linecap: round;
+}
+circle{
+  width:1px
+}
+image{
+  opacity: 0.3;
+}
+
+#copy, #copy a {
+  color: #1AA398;
+}
+
+    </style>
+  </head>
+  <body id="map">
+    <script type="text/javascript" src="./scripts/wlshr.js"></script>
+    <span id="copy">
+      &copy; 2010
+      <a href="http://www.cloudmade.com/">CloudMade</a>,
+      <a href="http://www.openstreetmap.org/">OpenStreetMap</a> contributors,
+      <a href="http://creativecommons.org/licenses/by-sa/2.0/">CCBYSA</a>.
+    </span>
+  </body>
+</html>
