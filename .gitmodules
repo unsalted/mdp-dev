@@ -1,3 +1,6 @@
 [submodule "gps-color-vis"]
 	path = gps-color-vis
 	url = https://unsalted@github.com/unsalted/gps-color-vis.git
+[submodule "n-model"]
+	path = n-model
+	url = https://unsalted@github.com/unsalted/n-model.git
