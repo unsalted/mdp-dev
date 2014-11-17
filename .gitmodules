@@ -4,3 +4,6 @@
 [submodule "n-model"]
 	path = n-model
 	url = https://unsalted@github.com/unsalted/n-model.git
+[submodule "screenxfacextime"]
+	path = screenxfacextime
+	url = https://unsalted@github.com/unsalted/screenxfacextime.git
