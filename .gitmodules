@@ -4,3 +4,6 @@
 [submodule "screenxfacextime"]
 	path = screenxfacextime
 	url = https://unsalted@github.com/unsalted/screenxfacextime.git
+[submodule "metagenome"]
+	path = metagenome
+	url = https://unsalted@github.com/unsalted/metagenome.git
